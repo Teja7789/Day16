@@ -1,0 +1,192 @@
+body{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+    width:100%;
+    height: 6%;
+    background:#fff;
+    padding:1.5rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+header .logo img{
+    height:5rem;
+    border-radius: 5px;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+header .navbar  ul li{
+    margin-left: 3rem;
+}
+
+header .navbar ul li a{
+    font-size: 1rem;
+    color:#666;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+.download {
+    font-size: 1.7rem;
+    padding:.4rem 2rem;
+    border-radius: 5rem;
+    background-color:#04ddb2;
+    color: #fff;
+    margin-left: 27rem;
+    cursor: pointer;
+    border:.2rem solid #04ddb2;
+}
+.download:hover {
+background:#04ddb2;
+}
+
+header .navbar ul li a.active,
+header .navbar ul li a:hover{
+    color:blue;
+}
+
+header #menu-bar{
+    font-size: 3rem;
+    color:#666;
+    cursor: pointer;
+    display: none;
+}
+.popular{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.popular .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.popular .box-container .box{
+    background: #fff;
+    width:75vw;
+    margin-top:2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.popular .box-container .box img{
+    height:85vh;
+    width:75vw;
+    object-fit: cover;
+}
+
+.popular .box-container .box:hover{
+    transform: scale(1.02);
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.248);
+    cursor: pointer;
+}
+.popular .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+h2 {
+  
+    font-size: 3em;
+    font-weight: 900;
+    
+}
+span{
+    margin-left: 30px;
+}
+.popular .content h1{
+    font-family: "LabGrotesque",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 1.05;
+    margin-top: 5rem;
+}
+.popular .content h1 .tour{
+    margin-left: 0px;
+   color: #04ddb2;
+   line-height: 1.05;
+   font-size: 80px;
+}
+.content p {
+    font-family: "LabGrotesque",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    line-height: 1.45;
+    margin-bottom: 40px;
+}
+.space {
+    margin-left: 10px;
+}
+.content #large-download-button {
+    font-size: 1.7rem;
+    padding:.4rem 2rem;
+    border-radius: 5rem;
+    background-color:#04ddb2;
+    color: #fff;
+    cursor: pointer;
+    border:.2rem solid #04ddb2;
+    width: 15%;
+    text-align: center;
+    margin-right: 5px;
+}
+.popular .large-download-button:hover {
+background:#04ddb2;
+}
+.footer{
+    
+    background: #fff;
+    /* padding:1rem 7%; */
+}
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.footer .box-container .box h3{
+    font-size: .4 rem;
+    color:black;
+    font-family: "LabGrotesque",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+
+.footer .box-container .box p{
+    font-size: 1 rem;
+    color:black;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.footer-social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #04ddb2;
+    margin: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    transition: .1s ease-in;
+}
+
+
+
+
